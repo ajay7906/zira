@@ -322,6 +322,7 @@ const TaskBoard = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   // Fetch tasks from backend
+  
   useEffect(() => {
     const fetchTasks = async () => {
       try {
